@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/session-start.ps1"
+            "command": "pwsh -File ${CLAUDE_PLUGIN_ROOT}/hooks/session-start.ps1"
           }
         ]
       }
